@@ -26,6 +26,11 @@ body div.container div.logo div.title {
     font-weight: bolder;
     font-family: sans-serif;
 }
+body div.container div.logo div.date {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
 body div.container div.urls div.url {
     margin-bottom: 30px;
 }

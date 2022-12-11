@@ -5,6 +5,7 @@ window.addEventListener("load", () => {
     return;
   }
   btns.forEach((btn) => {
+    document.querySelector('div.date').textContent = getTodaysDate()
     btn.addEventListener("click", (e) => {
       if (e.target.classList.contains("getQuote")) {
         let language = e.target.getAttribute("data-language");
