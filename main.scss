@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  div.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    margin: 8px;
+    div.logo {
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 15px;
+      img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50px;
+      }
+      div.title {
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: sans-serif;
+      }
+    }
+    div.urls {
+      div.url {
+        margin-bottom: 10px;
+        div.url-info {
+          display: flex;
+          margin-left: 15px;
+          margin-right: 15px;
+          column-gap: 15px;
+          div.urlText {
+            overflow-wrap: break-word;
+            max-width: 180px;
+          }
+        }
+        div.hide {
+          display: none;
+        }
+        div.btn {
+          font-weight: bold;
+          background-color: #5c5cc0;
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          border-radius: 10px;
+          min-height: 30px;
+          line-height: 30px;
+          font-family: sans-serif;
+          padding: 5px 8px;
+        }
+      }
+    }
+  }
+  div.toast {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    div {
+      background: #808080;
+      color: white;
+      font-size: 25px;
+      border-radius: 5px;
+      padding: 5px;
+      font-family: sans-serif;
+      text-align: center;
+      max-width: fit-content;
+    }
+  }
+}
