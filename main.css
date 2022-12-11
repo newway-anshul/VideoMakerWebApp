@@ -62,7 +62,7 @@ body div.container div.urls div.url div.btn {
 }
 body div.toast {
     position: fixed;
-    bottom: 50px;
+    bottom: 200px;
     display: flex;
     justify-content: center;
     width: 100%;
