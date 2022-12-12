@@ -1,0 +1,43 @@
+{
+  "background_color": "#ffffff",
+  "description": "A web app to get daily quote url",
+  "dir": "ltr",
+  "display": "browser",
+  "name": "3R",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "3R",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "android-launchericon-512-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "android-launchericon-192-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android-launchericon-144-144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "android-launchericon-96-96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "android-launchericon-72-72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "android-launchericon-48-48.png",
+      "sizes": "48x48"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "en",
+  "display_override": ["browser"]
+}
