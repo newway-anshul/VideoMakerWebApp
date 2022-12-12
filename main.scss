@@ -29,6 +29,30 @@ body {
         font-family: sans-serif;
       }
     }
+    div.dataIndicator{      
+      display: flex;
+      column-gap: 15px;
+      div{
+        margin-bottom: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        &::after{
+          content: ' ';
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          background-color: gray;
+          display: inline-block;
+          margin-left: 6px;
+          vertical-align: middle;
+        }
+      }
+      &.dataLoaded>div{
+        &::after{
+        background-color: green;
+        }
+      }
+    }
     div.urls {
       div.url {
         margin-bottom: 30px;
